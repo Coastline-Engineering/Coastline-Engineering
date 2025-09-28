@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coastline Engineering</title>
+  <style>
+    body 
+        {
+        font-family: Arial, sans-serif;
+        background-color: #f7efe1;
+        text-align: center;
+        padding: 30px;
+        }
+    h1 
+        { 
+        line-height: .5;
+        margin-bottom: 0px;
+        }
+    p 
+        {
+        margin-top: 100;
+        }
+    button 
+        {
+        background: teal;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        }
+    .image-row 
+        {
+        display: flex;           /* makes images align in a row */
+        align-items: center;        /* aligns centers horizontally */
+        justify-content: center; /* centers the row horizontally */
+        gap: 10px;               /* space between images */
+        flex-wrap: wrap;               /* allows wrapping on small screens */
+        }
+    .side-image 
+        {
+        width: 100%;       /* fills the container but scales down */
+        max-width: 600px;  /* limits the image width */
+        height: auto;      /* preserves aspect ratio */
+        display: block;    /* removes any inline spacing */
+        margin: 0 auto;    /* centers the image */
+        }
+
+    .small-image 
+        {
+        width: 30%;            /* 25% of the container width */
+        height: auto;          /* keeps proportions */
+    
+        }
+    .large-image
+        {
+      
+        width: 40%;            /* 75% of the container width */
+        height: auto;
+        }
+    .red-text 
+        {
+        color: red;
+        }
+    .navy-text 
+        {
+        color: navy;
+        }
+    .header 
+        {
+        position: relative;      /* makes absolute logo relative to header */
+        height: 220px;
+        }
+    
+    .logo 
+        {
+        position: relative;      /* positions relative to the page */
+        top: 30px;               /* distance from top of page */
+        left: 00px;              /* distance from left edge */
+        width: 200px;            /* adjust as needed */
+        height: auto;            /* keeps original proportions */
+         }
+    .my-button 
+        {
+        background: teal;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;  /* remove underline */
+        display: block;  /* so padding works */
+        width: max-content;   /* keeps button sized to text */
+        margin: 20px auto;    /* centers button horizontally + adds spacing */
+        cursor: pointer;
+        }
+    .full-line 
+        {
+        border: none;               /* remove default border */
+        height: 2px;                /* thickness of the line */
+        background-color: #333;     /* color of the line */
+        width: 100%;                /* full page width */
+        margin: 20px 0;             /* spacing above and below */
+        }      
+  </style>
+</head>
+<body>
+
+ 
+<div class="header">
+  <img src="emblem.png" alt="Logo" class="logo">
+</div>
+
+    <h1>
+        <span class="red-text">COASTLINE</span> 
+              </h1> 
+    <h1>
+        <span class="navy-text">ENGINEERING</span>
+        </h1> 
+
+    <p style="color: black;">Civil Engineering Firm</p>
+
+    <p style="color: black;">Est. 2024</p>
+
+
+    <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+    <hr class="full-line">
+        </div>
+
+    <h3 style="color: black; font-style: italic;">Our Professional</h3>
+
+     <div class="image-row">
+        <img src="2023.03.29 - Beach Photo - Professional - Drone.jpg" alt="Photo 1" class="side-image">
+                </div> 
+
+    <h3 style="color: navy;">Zachary Anderson, PE, CME</h3>
+
+    <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+        <p>
+            Mr. Anderson is a licensed Civil Engineer in the State of New Jersey with years of experience in municipal engineering and design. 
+
+         <p>
+            He specializes in planning, designing, and managing projects like roadways, utilities, stormwater systems, and ADA improvements. 
+
+         <p>
+            He works closely with municipalities, contractors, and stakeholders to deliver projects on time, on budget, and built to last. 
+            </p>
+
+         <p>
+           Mr. Anderson is committed to creating practical, innovative solutions that strengthen communities and improve local infrastructure. 
+            </p>
+        </div>
+
+    <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+        <hr class="full-line">
+        </div>
+
+     <a href="Services.html" class="my-button">Our Services</a>
+     <a href="Contact Us.html" class="my-button" style="color: #FF6B6B;">Contact Us</a>
+     <a href="index.html" class="my-button">Home Page</a>
+
+</body>
+</html>
